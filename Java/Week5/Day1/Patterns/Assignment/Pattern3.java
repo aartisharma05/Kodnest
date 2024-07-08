@@ -14,3 +14,7 @@ public class Pattern3 {
 	}
 
 }
+
+
+
+// O/P

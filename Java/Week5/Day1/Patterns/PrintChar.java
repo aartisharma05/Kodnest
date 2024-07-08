@@ -22,5 +22,6 @@ public class PatternProblems {
 				}
 				scn.close();
 	}
+	
 
 }

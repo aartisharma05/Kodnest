@@ -32,3 +32,20 @@ public class Pattern {
 	}
 
 }
+
+
+
+// O/p - 
+
+
+// Enter number of lines to be printed: 
+// 5
+// Enter number of $ symbol to be printed: 
+// 2
+// Enter number of * symbol to be printed: 
+// 3
+// $$***
+// $$***
+// $$***
+// $$***
+// $$***

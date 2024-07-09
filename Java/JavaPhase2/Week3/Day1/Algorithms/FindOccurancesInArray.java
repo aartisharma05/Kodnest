@@ -5,13 +5,16 @@ public class FindOccurances {
 	
 	static int findOccurances(int key, int arr[]) {
 		 int count = 0;
+//		 Traversing the array
 	      for(int i=0;i<=arr.length-1;i++) {
+	    	  
+//	    	  Checking whether the key is present in the array
 	    	  if(key == arr[i]) {
-	    		  count++;//counting the occurances of key
+	    		  count++;//increasing the count if the key is present
 	    		  
 	    	  }
 	      }
-	      return count;
+	      return count;//returning the count
 	}
 
 	public static void main(String[] args) {

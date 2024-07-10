@@ -3,7 +3,9 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 class Searching{
-	static void linearSearch(int key, int []arr){
+
+	
+	 void linearSearch(int key, int []arr){
 		
 		for(int i=0;i<=arr.length-1;i++) {
 			if(arr[i] == key) {
@@ -16,7 +18,7 @@ class Searching{
 	}
 	
 	
-    static void BinarySearch(int key, int []arr){
+     void BinarySearch(int key, int []arr){
 		
     	mySort(arr);
     	int low = 0, high = arr.length-1;
@@ -38,13 +40,10 @@ class Searching{
     	}
     	
     	System.out.println("Key not found");
-    	
-    	
-    
 	}
 
     
-    static int[] mySort(int []arr) {
+    int[] mySort(int []arr) {
     	Arrays.sort(arr);
     	return arr;
     }

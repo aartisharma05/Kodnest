@@ -16,15 +16,16 @@ public class ImmutableString {
 		
 		
 		System.out.println(s1);
+		System.out.println(s1.concat("Web"));
 		System.out.println(s2);
 
 	}
 
 }
 
-
 // O/p-
 
 // Java
 // Java
+// JavaWeb
 // JavaPython

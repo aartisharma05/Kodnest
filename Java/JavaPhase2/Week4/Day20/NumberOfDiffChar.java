@@ -16,7 +16,7 @@ public class NumberOfDiffChar {
 	    char [] arr = s1.toCharArray();
 	    
 	    for(int i=0;i<=arr.length-1;i++) {
-	    	if( arr[i]>='a' && (int)arr[i]<='z' ) {
+	    	if( arr[i]>='a' && arr[i]<='z' ) {
 	    		lowerCase++;
 	    	}
 	    	else if(arr[i]>='A' && arr[i]<='Z' ) {

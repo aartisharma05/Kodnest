@@ -8,6 +8,8 @@ public class StringLength {
 		
 		Scanner scn = new Scanner(System.in);
 		
+		System.out.println("Enter two string: ");
+		
 		String s1 = scn.nextLine();
 		String s2= scn.nextLine();
 		
@@ -21,3 +23,11 @@ public class StringLength {
 	}
 
 }
+
+
+// O/p-
+
+// Enter two string: 
+// JAVA
+// JAVAPROGRAMMING
+// Different length

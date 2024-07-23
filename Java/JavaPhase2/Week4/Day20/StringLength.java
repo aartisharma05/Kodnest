@@ -8,8 +8,6 @@ public class StringLength {
 		
 		Scanner scn = new Scanner(System.in);
 		
-		System.out.println("Enter two string: ");
-		
 		String s1 = scn.nextLine();
 		String s2= scn.nextLine();
 		
@@ -18,6 +16,16 @@ public class StringLength {
 			System.out.println("Same length");
 		}
 		else System.out.println("Different length");
+
+
+		// Without using in-built method
+		 char []arr1 = s1.toCharArray();
+	   
+	        char []arr2 = s2.toCharArray();
+	   
+	  	 if(arr1.length == arr2.length) System.out.println("Same length");
+	  	 else System.out.println("Different length");
+	   
 		
 
 	}
